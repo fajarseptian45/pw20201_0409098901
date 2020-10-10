@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>Latihan Dengan Objek Text</title>
+</head>
+
+<body>
+    <!--NIM, NAMA, JENIS KELAMIN, AGAMA, STATUS, JURUSAN, KOMENTAR.-->
+    <form>
+        <h1> Form Pendaftaran</h1>
+        <hr>
+        <pre>
+            NIM : <input type="text" size="11" name="nim">
+
+            NAMA : <input type="text" size="25" name="nama">
+
+            JENIS KELAMIN : 
+            <input type="radio" name="jkel" value="Pria"> Pria 
+            <input type="radio" name="jkel" value="Wanita"> Wanita
+            
+            AGAMA : 
+            <select name=agama>
+                <option value="Islam">Islam</option>
+                <option value="Katoholik">Katholik</option>
+                <option value="Kristen">Kristen</option>
+                <option value="Hindu">Hindu</option>
+                <option value="Budha">Budha</option>
+            </select>
+
+            STATUS : 
+            <input type="radio" name="status" value="kawin">Kawin 
+            <input type="radio" name="status" value="belumkawin">Belum Kawin
+
+            JURUSAN : 
+            <select name="jurusan" Size="1">
+                <option value ="Teknik Informatika"> Teknik Informatika </option>
+                <option value ="Manajemen Informatika"> Manajemen Informatika </option>
+                <option value ="Teknik Komputer"> Teknik Komputer </option>
+                <option value ="Teknik Industri"> Teknik Industri </option>
+                <option value ="Teknik Elektro"> Teknik Elektro </option>
+                <option value ="Teknik Sipil"> Teknik Sipil </option>
+                <option value ="Teknik Arsitektur"> Teknik Arsitektur </option>
+                <option value ="Teknik Perencanaan Wil. Kota "> Perencanaan Wil. Kota </option>
+            </select>
+
+            KETERANGAN:
+            <textarea name="ket" rows="3" cols="30"></textarea>
+        </pre>
+        <br>
+        <input type="button" value="kirim">
+        <input type="reset" value="ulang">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>Latihan Dengan Objek Text</title>
+</head>
+
+<body>
+    <!--NIM, NAMA, JENIS KELAMIN, AGAMA, STATUS, JURUSAN, KOMENTAR.-->
+    <form>
+        <font color="DodgerBlue">
+            <h1 align=center> Free Registration</h1>
+        </font>
+        <pre>
+            Nama : <input type="text" size="25" name="nama">
+
+            Tgl Lahir : <input type="number" size="2" max="31" min="1" name="tanggal"> / <input type="number" size="2" max="12" min="1" name="bulan"> / <input type="number" size="4" min="1960" max="2020" name="tahun">
+
+            Alamat:
+            <textarea name="alamat" rows="3" cols="30"></textarea>
+
+            Kota : <input type="text" size="25" name="kota">
+
+            Pekerjaan : <select name=pekerjaan>
+                <option value="Tani">Tani</option>
+                <option value="Wirastasta">Wirastasta</option>
+                <option value="Pengusaha">Pengusaha</option>
+                <option value="Trader">Trader</option>
+                <option value="Pengacara">Pengacara</option>
+            </select>
+
+            Jenis Kelamin :  <input type="radio" name="jkel" value="Pria"> Pria <input type="radio" name="jkel" value="Wanita"> Wanita
+            
+            Hobby : 
+            <input type="checkbox" size="25" name="reading" value="Reading"> <label for="reading"> Reading</label>
+            <input type="checkbox" size="25" name="sport" value="Sport"> <label for="sport"> Sport</label>
+            <input type="checkbox" size="25" name="singing" value="Singing"> <label for="singing"> Singing</label>
+            <input type="checkbox" size="25" name="travelling" value="Travelling"> <label for="travelling"> Travelling</label>
+            
+            <br>
+            <input type="button" value="kirim"> <input type="button" value="cancel">
+        </pre>
+    </form>
+</body>
+
+</html>
