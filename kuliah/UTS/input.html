@@ -1,0 +1,50 @@
+<html>
+
+<head>
+  <title>UTS</title>
+</head>
+
+<body>
+  <h3><u>Input</u></h3>
+  <form action="proses.php" method="post">
+    <table cellpadding="8px">
+      <tr>
+        <td>Nama</td>
+        <td>:</td>
+        <td><input type="text" name="nama"></td>
+        <td>&nbsp&nbsp </td>
+        <td>Lama</td>
+        <td>:</td>
+        <td><input type="text" name="lama"> Hari</td>
+      </tr>
+      <tr>
+        <td>Kode Booking </td>
+        <td>:</td>
+        <td><select id="booking" name="booking">
+            <option value="AL02102">AL02102</option>
+            <option value="BG03025">BG03025</option>
+            <option value="CR02111">CR02111</option>
+            <option value="KM03075">KM03075</option>
+          </select></td>
+        <td></td>
+        <td>Jenis Pembayaran </td>
+        <td>:</td>
+        <td><select id="bayar" name="bayar">
+            <option value="kredit">Kartu Kredit</option>
+            <option value="debit">Debit</option>
+            <option value="cash">Cash</option>
+          </select></td>
+      </tr>
+      <tr>
+        <td>Jumlah</td>
+        <td>:</td>
+        <td><input type="text" name="jumlah" width="20px"> orang</td>
+        <td colspan="4"></td>
+      </tr>
+    </table><br><br>
+    <input type="submit" name="submit" value="Submit">&nbsp&nbsp&nbsp
+    <input type="reset" name="reset" value="Reset">
+  </form>
+</body>
+
+</html>
